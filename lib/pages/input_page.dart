@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:bmi/icon_content.dart';
-import 'package:bmi/reusable_card.dart';
+import 'package:bmi/widgets/icon_content.dart';
+import 'package:bmi/widgets/reusable_card.dart';
 import 'package:bmi/constants.dart';
-import 'package:bmi/results_page.dart';
-import 'package:bmi/bottom_button.dart';
-import 'package:bmi/round_icon_button.dart';
+import 'package:bmi/pages/results_page.dart';
+import 'package:bmi/widgets/bottom_button.dart';
+import 'package:bmi/widgets/round_icon_button.dart';
 import 'package:bmi/calculator_brain.dart';
 
 enum Gender {
@@ -20,8 +20,8 @@ class InputPage extends StatefulWidget {
 
 class _InputPageState extends State<InputPage> {
   Gender? selectedGender;
-  int height = 180;
-  int weight = 60;
+  int height = 170;
+  int weight = 55;
   int age = 20;
 
   @override
